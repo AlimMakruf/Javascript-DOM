@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript DOM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="containerLogin">
+            <div class="halamanLogin">
+                <div class="input">
+                    <h3>Login</h3>
+                    <!-- Username -->
+                    <input type="username" required id="inputUsername" placeholder="Username"><br>
+                    <!-- Password -->
+                    <input type="password" required id="inputPassword" placeholder="Password"><br>
+                </div>
+                <button id="btn" type="button">Kirim</button>
+            </div>
+        </div>
+        
+        <div class="containerChoosingIMG">
+            <div class="img">
+                <h1>Silahkan pilih buah mana yang ingin kamu order..</h1>
+                <img src="img/apel.jpg" id="apel">
+                <img src="img/anggur.jpg" id="anggur">
+                <img src="img/jeruk.jpg" id="jeruk">
+            </div>
+        </div>
+    </div>
+    
+    <div class="containerContactUs">
+        <div class="contact-us">
+            <h3>Hubungi kami apabila anda memilki problem.</h3>
+            <form>                                          <!-- Buat Form -->
+                <input type="text" placeholder="Nama" id="inputName" class="field" required> <br>
+                <input type="email" placeholder="Email" id="inputEmail" class="field" required> <br>
+                <textarea name="pesan" rows="7" cols="45" placeholder="Tulis pesan anda disini" id="pesan" class="field area" required></textarea> <br>
+                <input class="btn" type="button" value="Kirim" id="contactUs">
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="script2.js"></script>
+</html>
